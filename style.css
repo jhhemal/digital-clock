@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to right, #576574, #222f3e);
+}
+
+.clock-outer{
+    border: 20px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.clock{
+    padding: 20px;
+}
+
+.clock h2{
+    font-size: 65px;
+    color: #10ac84;
+}
